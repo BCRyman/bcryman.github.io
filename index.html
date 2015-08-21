@@ -388,47 +388,7 @@
           </div>
         </div>
         </div>
-         <div class="container" id="Contact Me">
-          <hr>
-        <h3>Contact Me</h3><br>
-        <?php
-            // check for a successful form post
-            if (isset($_GET['s'])) echo "<div class=\"alert alert-success\">".$_GET['s']."</div>";
-            // check for a form error
-            elseif (isset($_GET['e'])) echo "<div class=\"alert alert-error\">".$_GET['e']."</div>";
-        ?>
-
-        <form class="form-horizontal" method="POST" action="contact-form.php">
-          <fieldset>
-
-              <p>If you wish to contact me please fill out your details below and I'll reply as soon as I can. Thanks!</p>
-            <div class="form-group">
-              <label for="inputName" class="col-lg-2 control-label">Name</label>
-                <div class="col-lg-10">
-                  <input type="text" class="form-control" name="contact_name" id="inputName" placeholder="Your name">
-                </div>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-              <div class="col-lg-10">
-                <input type="text" class="form-control" name="contact_email" id="inputEmail" placeholder="Your email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="textArea" class="col-lg-2 control-label">Message</label>
-              <div class="col-lg-10">
-                <textarea class="form-control" rows="3" name="contact_message" id="textArea" placeholder="This is the message you want to send me."></textarea>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-10 col-lg-offset-2">
-                <input type="hidden" name="save" value="contact">
-                <button type="submit" class="btn btn-default">Send</button>
-              </div>
-            </div>
-          </fieldset>
-        </form>
-        </div>
+        
 
     </div>
 
