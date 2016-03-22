@@ -3,11 +3,17 @@ body{
   margin-right: auto;
   margin-left: auto;
 }
-.bodycontainer .container{
-    background-color: #D3ECA9;
+
+.headercontainer{
+  background-color: rgba(0,0,0,0.5);
 }
 
 hr{
   color: #FFFFFF;
   border-color: #000000;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.5);
+  border-color: rgba(0,0,0,0.5);
 }
