@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
-
   margin-right: auto;
   margin-left: auto;
   font-family: 'Open Sans',serif;
 }
 
+
+h1{
+    color: #004B00;
+}
+h2{
+    color: #004B00;
+}
+h3{
+  color: #004B00;
+}
+h4{
+    color: #004B00;
+}
 .container{
 
 }
@@ -17,11 +29,11 @@ body{
 }
 
 hr{
-  color: #FFFFFF;
-  border-color: #000000;
+  color: #004B00;
+  border-color: #004B00;
 }
 
 .navbar {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,75,0,0.75);
   border-color: rgba(0,0,0,0.5);
 }
